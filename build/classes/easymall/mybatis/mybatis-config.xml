@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybitis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<settings>
+		<setting name = "lazyLoadingEnabled" value = "true" />
+		<setting name = "aggressiveLazyLoading" value = "false" />
+	</settings>
+	<mappers>
+		<mapper resource="easymall/mybatis/UserMapper.xml"/>
+		<mapper resource="easymall/mybatis/ProductMapper.xml"/>
+		<mapper resource="easymall/mybatis/CartMapper.xml"/>
+		<mapper resource="easymall/mybatis/OrderMapper.xml"/>
+		<mapper resource="easymall/mybatis/OrderItemMapper.xml"/>
+		<mapper resource="easymall/mybatis/CategoryMapper.xml"/>
+	</mappers>
+</configuration>
